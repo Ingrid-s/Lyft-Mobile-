@@ -1,0 +1,83 @@
+/* estilos para el navbar mobile */
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+.fondo1{
+background-image: url(../assets/images/purple.png);
+background-repeat: no-repeat;
+width: 100%;
+height: 100vh;
+background-size: cover;
+}
+
+#logo {
+    width: 30rem;
+    top:40vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+.fondo2 {
+  background-image: url(../assets/images/petersburg-2805505__340.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  }
+
+  #logoPink{
+    width: 30rem;
+    top:40vh;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+.button{
+    margin-left: 40%;
+    margin-top: 50rem;
+    background-color: rgba(129,251,240,.25);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 12rem;
+    height: 4rem;
+    font-size: 3rem;
+    color: #ffff;
+
+}
+.singUp {
+    right: 40%;
+    margin-top: 50rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(129,251,240,.25);
+    width: 12rem;
+    height: 4rem;
+    font-size: 3rem;
+    position: absolute;
+
+}
+
+
+.view1{
+  width: inherit;
+  height: auto;
+  text-align: center;
+}
+.view1 ul li{
+  list-style: none;
+}
+
+.view2{
+  width: inherit;
+  height: auto;
+  text-align: center;
+}
+.view2 ul li{
+  list-style: none;
+}
