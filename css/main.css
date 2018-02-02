@@ -37,29 +37,35 @@ background-size: cover;
     margin: 0 auto;
     position: absolute;
   }
+  .btn-group{
+    margin-left: 40%;
+    margin-top: 38%;
+
+  }
 
 .button{
-    margin-left: 40%;
-    margin-top: 50rem;
+
     background-color: rgba(129,251,240,.25);
     border: 1px solid white;
     border-radius: 5px;
-    width: 12rem;
-    height: 4rem;
+    width: 13rem;
+    height: auto;
     font-size: 3rem;
-    color: #ffff;
+    color: #ea0b8c;
+    display: inline-block;
 
 }
-.singUp {
-    right: 40%;
-    margin-top: 50rem;
+.signUp {
+
+
     border: 1px solid white;
     border-radius: 5px;
     background-color: rgba(129,251,240,.25);
-    width: 12rem;
-    height: 4rem;
+    width: 13rem;
+    height: auto;
     font-size: 3rem;
-    position: absolute;
+    color: #ea0b8c;
+
 
 }
 

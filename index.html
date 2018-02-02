@@ -1,38 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
         <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+            <!-- Optional theme -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+              <!-- Hoja de estilos -->
+            <link rel="stylesheet" href="css/main.css">
+              <!--Fuentes-->
+            <script src="https://use.fontawesome.com/b94b8f4b21.js"></script>
 
-
-          <!-- Latest compiled and minified CSS -->
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-          <!-- Optional theme -->
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-            <!-- Hoja de estilos -->
-          <link rel="stylesheet" href="css/main.css">
-
-          <script src="https://use.fontawesome.com/b94b8f4b21.js"></script>
-
-          <title>Lyft</title>
-
+            <title>Lyft</title>
         </head>
-        <body>
 
+        <body>
           <!--splash-->
 
-          <div class="container splash fondo1">
-            <img src="assets/images/logo-white.png" id="logo" alt="logo en blanco">
+          <div class="container-fluid splash fondo1">
+            <div clas="row">
+              <div clas="col-xs-12 col-lg-12">
+              <img src="assets/images/logo-white.png" id="logo" alt="logo en blanco">
+            </div>
+            </div>
           </div>
 
           <!-- Sección segunda -->
           <div class="container fondo2">
-             <img src="assets/images/logo-pink.png"class="col-xs-12" id="logoPink" alt="logo en rosado">
-             <button class="button" type="submit">Log in</button>
-             <button class="button singUp" type="submit">Sing up</button>
-          </div>
+            <div class="row">
+             <img src="assets/images/logo-pink.png"class=" col-xs-12 col-lg-12" id="logoPink" alt="logo en rosado">
+             </div>
+          <section class="row">
+            <div class="btn-group col-xs-12 col-lg-12 " role="group" aria-label="...">
+              <button type="button submit" class="btn btn-lg btn-outline-light button"><a href="">Log in</button>
+              <button type="button submit" class="btn btn-lg btn-outline-light signUp"><a href="views/view1.html">Sign up</button>
+            </div>
+          </section>
 
+        </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <!-- Latest compiled and minified JavaScript -->
